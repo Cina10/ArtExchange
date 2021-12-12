@@ -1,0 +1,11 @@
+body {
+    background-color: #3A3A4D;
+    color: white;
+}
+
+.card {
+    min-height: 300px;
+    min-width: 400px;
+    margin-right: 5px;
+    color: black;
+}

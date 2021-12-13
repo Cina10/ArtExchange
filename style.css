@@ -6,6 +6,45 @@ body {
 .card {
     min-height: 300px;
     min-width: 400px;
+    max-height: 300px;
+    max-width: 400px;
     margin-right: 5px;
     color: black;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.scrolling {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 5px 10px 5px;
+}
+
+.backgroundImg {
+    opacity: 0.5;
+    display: block;
+    min-width:400px;
+    min-height:300px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: red;
+  outline: 1px solid slategrey;
 }

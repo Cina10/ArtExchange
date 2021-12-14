@@ -48,3 +48,42 @@ body::-webkit-scrollbar-thumb {
   background-color: red;
   outline: 1px solid slategrey;
 }
+
+.navbar {
+  background-color: #3A3A4D;
+  box-shadow: 5px 1px grey;
+}
+
+
+
+.icon {
+  background-color: #DBDBDB;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 2em;
+  float: right;
+  margin-right: 15px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.searchbar {
+  border-radius: 25px;
+  background: #DBDBDB;
+  background-color: #DBDBDB;
+}
+
+.inputting {
+  background: #DBDBDB;
+  background-color: #DBDBDB;
+  border: None;
+  font-size: 1.5em;
+}
+
+.fa-search {
+  padding: 15px;
+  font-size: 2em;
+}

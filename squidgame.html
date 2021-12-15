@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Groups</title>
+    <title>Squidgame Art Exchange</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -27,17 +27,17 @@
             <li><i class="fa fa-bars icon"></i></li>
           </ul>
       </nav>
-    <h1 style="padding: 10px; font-family: title-font;">Find new groups</h1>
+    <h1 style="padding: 10px; font-family: title-font;">Welcome to the Squid Game art exchange!</h1>
     <div class="home-list">
         <div class="home-list-section">
             <h2 class="section-header">Popular</h2>
             <div class="d-flex flex-row flex-nowrap overflow-auto scrolling first-element">
-                <div class="new-card card-block mx-2">
-                    <div class="bg-dark text-white">
+                <div class="card card-block mx-2" id="re">
+                    <div class="card bg-dark text-white">
                         <img class="card-img backgroundImg" src="images/squidgame.jpeg" alt="Card image">
-                        <div class="card-img-overlay prompt">
+                        <div class="card-img-overlay">
                             <div class="card-body">
-                                <p class="card-text">test</p>
+                                <p class="card-text" id="disappear"></p>
                             </div>
                         </div>
                     </div>
@@ -45,6 +45,16 @@
             </div>
         </div>
     </div>
+    <script>
+        // Code that makes handling text appear on hover
+        const card = document.getElementById("re");
+        card.onmouseover = function() {
+            document.getElementById("disappear").innerText = "Look at this super cool art";
+        }
+        card.onmouseleave = function() {
+            document.getElementById("disappear").innerText = "";
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

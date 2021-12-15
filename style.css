@@ -13,11 +13,37 @@ body {
     transition-duration: 0.4s;
     border: none;
     border-radius: 20px;
+    font-family: paragraph-font;
+    display: flex;
+    justify-content: center;
 }
 
 .card:hover {
     cursor: pointer;
     opacity: 0.75;
+}
+
+.join-img {
+    width: 40px;
+    height: 40px;
+}
+
+.join-button {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    transition: all .2s ease-in-out;
+    padding: 0px;
+}
+
+.join-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .scrolling {
@@ -36,6 +62,34 @@ body {
     border-radius: 20px;
 }
 
+.home-list-section {
+    padding: 20px 0px 20px 0px;
+}
+
+.first-element {
+    padding-left: 40px;
+}
+
+.section-header {
+    padding-left: 40px;
+    font-family: subtitle-font;
+}
+
+@font-face {
+  font-family: subtitle-font;
+  src: url(fonts/ReadexPro-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: title-font;
+  src: url(fonts/ReadexPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: paragraph-font;
+  src: url(fonts/ReadexPro-Regular.ttf);
+}
+
 body::-webkit-scrollbar {
   width: 1em;
 }
@@ -45,16 +99,14 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: red;
+  background-color: black;
   outline: 1px solid slategrey;
 }
 
 .navbar {
   background-color: #3A3A4D;
-  box-shadow: 5px 1px grey;
+  box-shadow: 5px 5px 5px black;
 }
-
-
 
 .icon {
   background-color: #DBDBDB;
@@ -86,4 +138,30 @@ body::-webkit-scrollbar-thumb {
 .fa-search {
   padding: 15px;
   font-size: 2em;
+}
+
+/* squidgame.html */
+.prompt.p {
+    transition: all .2s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.prompt.p:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.new-card {
+    min-height: 300px;
+    min-width: 400px;
+    max-height: 300px;
+    max-width: 400px;
+    margin-right: 5px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-family: paragraph-font;
+    display: flex;
+    justify-content: center;
 }

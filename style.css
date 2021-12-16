@@ -395,4 +395,123 @@ a {
   opacity: .5;
 }
 
+.proBackground {
+  margin-left: 17%;
+  height: 200px;
+  /* outline-style: solid;  */
+  margin-top: 5%;
+}
 
+.proBackground img {
+  width: 1100px;
+  height: 200px;
+}
+
+.name {
+  font-size: 3rem; 
+  margin-left: 36%;
+  margin-top: -3%;
+}
+
+.info {
+  margin-left: 36%;
+  /* margin-top: */
+
+}
+
+.proYear img {
+  margin-left: 36%;
+  width: 500px;
+  height: 80px;
+
+}
+
+.badges {
+  background-color: grey; 
+  width: 1000px;
+  height: 125px;
+  margin-left: 19%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.badge {
+  margin-top: -10%;
+  margin-left: 19%;
+}
+.badge:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.badge img {
+  height: 70px;
+  margin-top: -50%;
+  width:70px;
+}
+
+.badge img:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+
+.findMe {
+  width: 450px;
+  height: 150px;
+  background-color: grey; 
+  margin-left: 19%;
+  padding:10px;
+  border-radius:10px;
+  font-size: 2rem;
+}
+
+.about {
+  margin-left: 20%;
+  margin-top: -7%;
+  font-size: 1rem;
+  float: left; 
+
+}
+
+.twtr {
+  margin-left: 20%;
+  margin-top: -5%;
+  font-size: 1rem;
+  /* color: red;  */
+}
+
+.discord {
+  margin-left: 20%;
+  /* margin-top: %; */
+  font-size: 1rem;
+}
+
+.freqTags {
+  background-color: grey;
+  width: 450px;
+  height: 150px; 
+  float: right; 
+  /* margin-left: 35%; */
+  padding:10px;
+  border-radius:10px;
+  font-size: 2rem;
+  margin-top: -12%;
+  margin-right: 80px; 
+}
+
+
+.hashtag {
+  margin-left: 750px;
+  /* outline-style: solid; */
+  width: 300px;
+  margin-top: -6%;
+}
+.hashtag2 {
+  margin-left: 750px;
+  /* outline-style: solid; */
+  width: 300px;
+  /* margin-top: %; */
+}

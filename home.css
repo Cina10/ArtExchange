@@ -8,7 +8,7 @@
     overflow: auto;
     flex-wrap: nowrap;
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* align-items: flex-start */
 }
 
@@ -20,7 +20,7 @@
 }
 
 .exchange {
-    /* align-self: flex-start; */
+    align-self: flex-start;
     /* display: inline-block; */
     width: 320px;
     /* float:left; */

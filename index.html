@@ -30,8 +30,10 @@
             <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
           </form>
           <ul class="nav navbar-nav ml-auto">
-            <li><i class="fa fa-home icon"></i></li>
-            <li><i class="fa fa-bars icon"></i></li>
+            <li><a href="index.html"><i class="fa fa-home icon"></i></a></li>
+            <li><a href="groups.html"><i class="fa fa-exchange icon"></i></a></li>
+            <li><i class="fa fa-bell icon"></i></li>
+            <li><a href="profile.html"><i class="fa fa-user icon"></i></a></li>
           </ul>
       </nav>
     <div id=body-container>
@@ -51,31 +53,61 @@
                     <button class="reply-button right" type="button">Reply</button>
                  </div>
               </div>
+
               <div id="group-monochrome" class="exchange">
                 <div class="group-head">
                     <span class="title">Monochrome o.O</span>
                     <span class="new-messages"><span>1</span></span>
                     <span class="right"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
                   </div>
-                  <div><img class="img-preview" src="images/umbrella-man.png" alt="blue umbrella man"></div>
+                  <div><img class="img-preview" src="images/newblue.jpg" alt="blue umbrella man"></div>
                   <div><img class="img-preview" src="images/red-girl.png" alt="red bloody girl"></div>
                   <div><img class="img-preview" src="images/yellow-man.png" alt="yellow person"></div>
                   <div id="button-container">
-                    <button class="reply-button right" type="button">Reply</button>
+                    <button onclick="location.href='message.html'" class="reply-button right" type="button">Reply</button>
                  </div>
-
               </div>
+
               <div id="group-squid" class="exchange">
-
+                <div class="group-head">
+                    <span class="title">Squid Game Fan Art</span>
+                    <!-- No new messages: <span class="new-messages"><span>1</span></span> --> 
+                    <span class="right"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                  </div>
+                  <div><img class="img-preview" src="images/squid1.jpeg" alt="squid game fan art"></div>
+                  <div><img class="img-preview" src="images/squid2.jpeg" alt="squid game fan art"></div>
+                  <div><img class="img-preview" src="images/squid3.jpeg" alt="squid game fan art"></div>
+                  <div id="button-container">
+                    <a class="reply-button right" type="button">Reply</a>
+                 </div>
               </div>
+
               <div id="group-sleep" class="exchange">
+                    <div class="group-head">
+                      <span class="title">Sleepy and Witchy!</span>
+                      <span class="new-messages"><span>3</span></span>
+                      <span class="right"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                    </div>
+                    <div><img class="img-preview" src="images/sleep1.png" alt="boy sleeping"></div>
+                    <div><img class="img-preview" src="images/sleep2.png" alt="night time goddess"></div>
+                    <div id="button-container">
+                      <button class="reply-button right" type="button">Reply</button>
+                   </div>
 
+                   
               </div>
-              <div id="group-tarot3" class="exchange">
+              <div id="group-tarot2" class="exchange">
+                    <div class="group-head">
+                      <span class="title">Tarot Cards</span>
+                      <span class="new-messages"><span>5</span></span>
+                      <span class="right"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                    </div>
+                    <div><img class="img-preview" src="images/raven-tarot.png" alt="death tarot card with a raven on it"></div>
+                    <div><img class="img-preview" src="images/owl-tarot.png" alt="temperance tarot card with a owl on it"></div>
+                    <div id="button-container">
+                      <button class="reply-button right" type="button">Reply</button>
+                   </div>
 
-              </div>
-              <div id="group-monochrome3" class="exchange">
-                  
               </div>
             
             </div>

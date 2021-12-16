@@ -1,7 +1,6 @@
 #body-container {
     padding: 30px;
     padding-bottom: 0px;
-    background-color: aquamarine;
 }
 
 #all-exchanges{
@@ -9,27 +8,73 @@
     overflow: auto;
     flex-wrap: nowrap;
     display: flex;
+    overflow: hidden;
+    /* align-items: flex-start */
 }
 
 .toggle {
-    background-color: red;
+    /* background-color: red; */
     /* width: 1vh; */
     padding-left: 15px;
     width: fit-content;
 }
 
 .exchange {
+    /* align-self: flex-start; */
     /* display: inline-block; */
     width: 320px;
     /* float:left; */
     flex: 0 0 auto;
-    background-color: plum;
-    height: 20px;
+    background-color:#767682;
+    /* height: 20px; */
     margin: 15px;
+    padding: 12px;
+    border-radius: 5px;
 }
 
-/* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
+.group-head {
+    padding: 5px;
+    margin-bottom: 15px;
+    height: 30px;
+    /* background-color: blue; */
+}
+
+.title {
+    font-weight: bold;
+    margin-right: 5px ;
+    float: left;  
+}
+.new-messages {
+    font-weight: bold;
+    float: left;
+    background-color: red;
+    border-radius: 13px;
+    /* padding: 5px; */
+    height: 25px;
+    width: 26px;
+    display: flex; 
+    justify-content: center;
+    align-items: center
+    /* text-align:center; */
+}
+
+.img-preview {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 296px;
+}
+
+.reply-button {
+    background-color: #89CADC ;
+    /* border-color: #F1F852;
+    border-width: 1.5px; */
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 3px 35px;
+    font-weight: 100;
+}
+
+.right {
+    float: right;
+}

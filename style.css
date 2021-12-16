@@ -100,9 +100,10 @@ body::-webkit-scrollbar-thumb {
 
 .Image1{
   display: inline-block;
-  outline-style: solid;
+  /* outline-style: solid; */
   width: 475px;
   height: 600px;
+  margin-top: 5%;
 }
 
 .Icons {
@@ -120,9 +121,11 @@ body::-webkit-scrollbar-thumb {
 
 .Image2 {
   display: inline-block;
-  outline-style: solid;
+  /* outline-style: solid; */
   width: 600px;
   height: 600px;
+  /* margin-top: 10%;  */
+  /* position: absolute;  */
 }
 
 .bloodbath {
@@ -280,3 +283,23 @@ body::-webkit-scrollbar-thumb {
 .send img {
   width: 45%;
 }
+
+.gold {
+  position: absolute; 
+  max-width: 400px;
+  max-height: 200px; 
+}
+
+.gold img{
+  width: 570px; 
+  height: 245px; 
+  margin-left: -4%;
+  margin-top: 7%;
+}
+
+
+.gold img:hover {
+  opacity: .5;
+}
+
+
